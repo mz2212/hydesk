@@ -13,5 +13,10 @@ struct hydeskApp: App {
         WindowGroup {
             ContentView()
         }
-    }
+        Settings {
+			SettingsView()
+		}
+	}
 }
+    
+    

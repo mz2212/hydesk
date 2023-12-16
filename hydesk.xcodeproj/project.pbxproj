@@ -14,6 +14,7 @@
 		A664E24F2B2DA67800C03026 /* hydeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E24E2B2DA67800C03026 /* hydeskTests.swift */; };
 		A664E2592B2DA67800C03026 /* hydeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E2582B2DA67800C03026 /* hydeskUITests.swift */; };
 		A664E25B2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E25A2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift */; };
+		A664E2682B2DA8AC00C03026 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E2672B2DA8AC00C03026 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A664E2542B2DA67800C03026 /* hydeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hydeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A664E2582B2DA67800C03026 /* hydeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydeskUITests.swift; sourceTree = "<group>"; };
 		A664E25A2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A664E2672B2DA8AC00C03026 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A664E23C2B2DA67700C03026 /* hydeskApp.swift */,
+				A664E2672B2DA8AC00C03026 /* SettingsView.swift */,
 				A664E23E2B2DA67700C03026 /* ContentView.swift */,
 				A664E2402B2DA67800C03026 /* Assets.xcassets */,
 				A664E2452B2DA67800C03026 /* hydesk.entitlements */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A664E2682B2DA8AC00C03026 /* SettingsView.swift in Sources */,
 				A664E23F2B2DA67700C03026 /* ContentView.swift in Sources */,
 				A664E23D2B2DA67700C03026 /* hydeskApp.swift in Sources */,
 			);
@@ -421,10 +425,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = hydesk/hydesk.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hydesk/Preview Content\"";
+				DEVELOPMENT_TEAM = X8D9K6TDHX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -446,10 +452,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = hydesk/hydesk.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hydesk/Preview Content\"";
+				DEVELOPMENT_TEAM = X8D9K6TDHX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
