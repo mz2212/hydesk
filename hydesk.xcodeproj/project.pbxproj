@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A664E23D2B2DA67700C03026 /* hydeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E23C2B2DA67700C03026 /* hydeskApp.swift */; };
+		A664E23F2B2DA67700C03026 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E23E2B2DA67700C03026 /* ContentView.swift */; };
+		A664E2412B2DA67800C03026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A664E2402B2DA67800C03026 /* Assets.xcassets */; };
+		A664E2442B2DA67800C03026 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A664E2432B2DA67800C03026 /* Preview Assets.xcassets */; };
+		A664E24F2B2DA67800C03026 /* hydeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E24E2B2DA67800C03026 /* hydeskTests.swift */; };
+		A664E2592B2DA67800C03026 /* hydeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E2582B2DA67800C03026 /* hydeskUITests.swift */; };
+		A664E25B2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A664E25A2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A664E24B2B2DA67800C03026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A664E2312B2DA67700C03026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A664E2382B2DA67700C03026;
+			remoteInfo = hydesk;
+		};
+		A664E2552B2DA67800C03026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A664E2312B2DA67700C03026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A664E2382B2DA67700C03026;
+			remoteInfo = hydesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A664E2392B2DA67700C03026 /* hydesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hydesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A664E23C2B2DA67700C03026 /* hydeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydeskApp.swift; sourceTree = "<group>"; };
+		A664E23E2B2DA67700C03026 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A664E2402B2DA67800C03026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A664E2432B2DA67800C03026 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A664E2452B2DA67800C03026 /* hydesk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hydesk.entitlements; sourceTree = "<group>"; };
+		A664E24A2B2DA67800C03026 /* hydeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hydeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A664E24E2B2DA67800C03026 /* hydeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydeskTests.swift; sourceTree = "<group>"; };
+		A664E2542B2DA67800C03026 /* hydeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hydeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A664E2582B2DA67800C03026 /* hydeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydeskUITests.swift; sourceTree = "<group>"; };
+		A664E25A2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A664E2362B2DA67700C03026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A664E2472B2DA67800C03026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A664E2512B2DA67800C03026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A664E2302B2DA67700C03026 = {
+			isa = PBXGroup;
+			children = (
+				A664E23B2B2DA67700C03026 /* hydesk */,
+				A664E24D2B2DA67800C03026 /* hydeskTests */,
+				A664E2572B2DA67800C03026 /* hydeskUITests */,
+				A664E23A2B2DA67700C03026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A664E23A2B2DA67700C03026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A664E2392B2DA67700C03026 /* hydesk.app */,
+				A664E24A2B2DA67800C03026 /* hydeskTests.xctest */,
+				A664E2542B2DA67800C03026 /* hydeskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A664E23B2B2DA67700C03026 /* hydesk */ = {
+			isa = PBXGroup;
+			children = (
+				A664E23C2B2DA67700C03026 /* hydeskApp.swift */,
+				A664E23E2B2DA67700C03026 /* ContentView.swift */,
+				A664E2402B2DA67800C03026 /* Assets.xcassets */,
+				A664E2452B2DA67800C03026 /* hydesk.entitlements */,
+				A664E2422B2DA67800C03026 /* Preview Content */,
+			);
+			path = hydesk;
+			sourceTree = "<group>";
+		};
+		A664E2422B2DA67800C03026 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A664E2432B2DA67800C03026 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A664E24D2B2DA67800C03026 /* hydeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A664E24E2B2DA67800C03026 /* hydeskTests.swift */,
+			);
+			path = hydeskTests;
+			sourceTree = "<group>";
+		};
+		A664E2572B2DA67800C03026 /* hydeskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A664E2582B2DA67800C03026 /* hydeskUITests.swift */,
+				A664E25A2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift */,
+			);
+			path = hydeskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A664E2382B2DA67700C03026 /* hydesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A664E25E2B2DA67800C03026 /* Build configuration list for PBXNativeTarget "hydesk" */;
+			buildPhases = (
+				A664E2352B2DA67700C03026 /* Sources */,
+				A664E2362B2DA67700C03026 /* Frameworks */,
+				A664E2372B2DA67700C03026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hydesk;
+			productName = hydesk;
+			productReference = A664E2392B2DA67700C03026 /* hydesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A664E2492B2DA67800C03026 /* hydeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A664E2612B2DA67800C03026 /* Build configuration list for PBXNativeTarget "hydeskTests" */;
+			buildPhases = (
+				A664E2462B2DA67800C03026 /* Sources */,
+				A664E2472B2DA67800C03026 /* Frameworks */,
+				A664E2482B2DA67800C03026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A664E24C2B2DA67800C03026 /* PBXTargetDependency */,
+			);
+			name = hydeskTests;
+			productName = hydeskTests;
+			productReference = A664E24A2B2DA67800C03026 /* hydeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A664E2532B2DA67800C03026 /* hydeskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A664E2642B2DA67800C03026 /* Build configuration list for PBXNativeTarget "hydeskUITests" */;
+			buildPhases = (
+				A664E2502B2DA67800C03026 /* Sources */,
+				A664E2512B2DA67800C03026 /* Frameworks */,
+				A664E2522B2DA67800C03026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A664E2562B2DA67800C03026 /* PBXTargetDependency */,
+			);
+			name = hydeskUITests;
+			productName = hydeskUITests;
+			productReference = A664E2542B2DA67800C03026 /* hydeskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A664E2312B2DA67700C03026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A664E2382B2DA67700C03026 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A664E2492B2DA67800C03026 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A664E2382B2DA67700C03026;
+					};
+					A664E2532B2DA67800C03026 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A664E2382B2DA67700C03026;
+					};
+				};
+			};
+			buildConfigurationList = A664E2342B2DA67700C03026 /* Build configuration list for PBXProject "hydesk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A664E2302B2DA67700C03026;
+			productRefGroup = A664E23A2B2DA67700C03026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A664E2382B2DA67700C03026 /* hydesk */,
+				A664E2492B2DA67800C03026 /* hydeskTests */,
+				A664E2532B2DA67800C03026 /* hydeskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A664E2372B2DA67700C03026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A664E2442B2DA67800C03026 /* Preview Assets.xcassets in Resources */,
+				A664E2412B2DA67800C03026 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A664E2482B2DA67800C03026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A664E2522B2DA67800C03026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A664E2352B2DA67700C03026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A664E23F2B2DA67700C03026 /* ContentView.swift in Sources */,
+				A664E23D2B2DA67700C03026 /* hydeskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A664E2462B2DA67800C03026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A664E24F2B2DA67800C03026 /* hydeskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A664E2502B2DA67800C03026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A664E25B2B2DA67800C03026 /* hydeskUITestsLaunchTests.swift in Sources */,
+				A664E2592B2DA67800C03026 /* hydeskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A664E24C2B2DA67800C03026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A664E2382B2DA67700C03026 /* hydesk */;
+			targetProxy = A664E24B2B2DA67800C03026 /* PBXContainerItemProxy */;
+		};
+		A664E2562B2DA67800C03026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A664E2382B2DA67700C03026 /* hydesk */;
+			targetProxy = A664E2552B2DA67800C03026 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A664E25C2B2DA67800C03026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A664E25D2B2DA67800C03026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A664E25F2B2DA67800C03026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hydesk/hydesk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hydesk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.myon.hydesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A664E2602B2DA67800C03026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hydesk/hydesk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hydesk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.myon.hydesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A664E2622B2DA67800C03026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.myon.hydeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hydesk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hydesk";
+			};
+			name = Debug;
+		};
+		A664E2632B2DA67800C03026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.myon.hydeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hydesk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hydesk";
+			};
+			name = Release;
+		};
+		A664E2652B2DA67800C03026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.myon.hydeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hydesk;
+			};
+			name = Debug;
+		};
+		A664E2662B2DA67800C03026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.myon.hydeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hydesk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A664E2342B2DA67700C03026 /* Build configuration list for PBXProject "hydesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A664E25C2B2DA67800C03026 /* Debug */,
+				A664E25D2B2DA67800C03026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A664E25E2B2DA67800C03026 /* Build configuration list for PBXNativeTarget "hydesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A664E25F2B2DA67800C03026 /* Debug */,
+				A664E2602B2DA67800C03026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A664E2612B2DA67800C03026 /* Build configuration list for PBXNativeTarget "hydeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A664E2622B2DA67800C03026 /* Debug */,
+				A664E2632B2DA67800C03026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A664E2642B2DA67800C03026 /* Build configuration list for PBXNativeTarget "hydeskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A664E2652B2DA67800C03026 /* Debug */,
+				A664E2662B2DA67800C03026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A664E2312B2DA67700C03026 /* Project object */;
+}
